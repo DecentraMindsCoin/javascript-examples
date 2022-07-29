@@ -10,3 +10,7 @@ var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];
 for(var i=0; i<fruits.length; i++) {
     document.write("<p>" + fruits[i] + "</p>");
 }
+
+for(var i in fruits) {  
+    document.write("<p>" + fruits[i] + "</p>");
+}
