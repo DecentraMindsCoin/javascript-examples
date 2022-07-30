@@ -26,3 +26,11 @@ let greet = "Hello World!";
 for(let character of greet) {
     console.log(character); // H,e,l,l,o, ,W,o,r,l,d,!
 }
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let i = 0;
+let text = "";
+
+for (;cars[i];) {
+  text += cars[i];
+  i++;
+}
