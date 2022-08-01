@@ -43,3 +43,5 @@ const mappedNfts = nfts.map((item) =>'name: ' + item.name + ' price: ' + item.pr
 
 const mappedItems = nfts.map((mapped) => `${mapped.name}` + `${mapped.price}`)
 console.log(mappedItems)
+
+const mappedItemsByCategory = nfts.map((item) => item.category === 'design').sort((a, b) => b.price - a.price)
