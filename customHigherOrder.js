@@ -24,7 +24,7 @@ nfts.forEach(function(nft) {
 // Sort nfts that are inside of the art category
 const filteredNfts = nfts.filter((nft) => nft.category == "art");
 // const canDrink = ages.filter((age) => age >= 21);
- 
+ console.log(filteredNfts);
 
 // console.log(filteredNfts)
 // Sort price of 3.00 and above and sort fro lowest price to highest
