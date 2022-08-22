@@ -21,3 +21,7 @@ function printUser({ name, age, ...rest}) {
 
 printUser(personOne)
 
+const customPerson = ({name, age, address}) => {
+    console.log(` name : ${name} age: ${age} address: ${address}`)
+
+}
